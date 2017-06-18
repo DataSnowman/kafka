@@ -246,11 +246,11 @@
         },
         "kafkaCluster": {
             "type": "object",
-            "value": "[reference(resourceId('Microsoft.HDInsight/clusters',variables('kafkaClusterName')))]"
+            "value": "[variables('kafkaClusterName')]"
         },
         "sparkCluster": {
             "type": "object",
-            "value": "[reference(resourceId('Microsoft.HDInsight/clusters',variables('sparkClusterName')))]"
+            "value": "[variables('sparkClusterName')]"
         }
     }
 }

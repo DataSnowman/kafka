@@ -1,7 +1,7 @@
 ## Instructions
 
-[Open the Kafka Cluster]({Outputs.kafkaCluster})
-[Open the Spark Cluster]({Outputs.sparkCluster})
+[Open the Kafka Cluster](https://portal.azure.com/#resource/subscriptions/{SubscriptionId}/resourceGroups/{ResourceGroup.Name}/providers/Microsoft.HDInsight/clusters/{Outputs.kafkaClusterName}/overview)
+[Open the Spark Cluster](https://portal.azure.com/#resource/subscriptions/{SubscriptionId}/resourceGroups/{ResourceGroup.Name}/providers/Microsoft.HDInsight/clusters/{Outputs.sparkClusterName}/overview)
 
 #### Quick links
 * [Use Spark Structured Streaming with Kafka (preview) on HDInsight](https://docs.microsoft.com/en-us/azure/hdinsight/hdinsight-apache-kafka-spark-structured-streaming#get-the-kafka-brokers)

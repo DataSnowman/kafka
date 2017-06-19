@@ -244,12 +244,12 @@
             "type": "object",
             "value": "[reference(resourceId('Microsoft.Network/virtualNetworks',variables('clusterVNetName')))]"
         },
-        "kafkaCluster": {
-            "type": "object",
+        "kafkaClusterName": {
+            "type": "string",
             "value": "[variables('kafkaClusterName')]"
         },
-        "sparkCluster": {
-            "type": "object",
+        "sparkClusterName": {
+            "type": "string",
             "value": "[variables('sparkClusterName')]"
         }
     }

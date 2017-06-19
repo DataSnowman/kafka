@@ -1,6 +1,9 @@
 ## Instructions
 
+#### Kafka Cluster
 [Open the Kafka Cluster](https://portal.azure.com/#resource/subscriptions/{SubscriptionId}/resourceGroups/{ResourceGroup.Name}/providers/Microsoft.HDInsight/clusters/{Outputs.kafkaClusterName}/overview)
+
+#### Spark Cluster
 [Open the Spark Cluster](https://portal.azure.com/#resource/subscriptions/{SubscriptionId}/resourceGroups/{ResourceGroup.Name}/providers/Microsoft.HDInsight/clusters/{Outputs.sparkClusterName}/overview)
 
 #### Quick links
